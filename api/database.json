@@ -1,20 +1,39 @@
 {
   "pros": [
     {
+      "user": "Blaise",
       "id": 1,
       "statement": "Playing Outside provides exersice."
     },
     {
+      "user": "Blaise",
       "statement": "Pools",
       "id": 2
     },
     {
+      "user": "Sydney",
       "statement": "Trees",
       "id": 3
     },
     {
+      "user": "Sydney",
       "statement": "Cars",
       "id": 4
+    },
+    {
+      "user": "Sydney",
+      "statement": "running",
+      "id": 5
+    },
+    {
+      "user": "Lynn",
+      "statement": "Dog",
+      "id": 6
+    },
+    {
+      "user": "Lynn",
+      "statement": "Dog2",
+      "id": 7
     }
   ],
   "cons": [

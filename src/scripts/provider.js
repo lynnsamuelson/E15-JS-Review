@@ -6,7 +6,8 @@ const conElement = document.getElementById("cons")
 
 let applicationState = {
   pros: [],
-  cons: []
+  cons: [],
+  filterUser: ""
 }
 
 export const fetchPros = () => {
@@ -26,11 +27,22 @@ export const fetchCons = () => {
 }
 
 export const getPros = () => {
-  return applicationState.pros.map(pro => ({...pro }))
+  if(applicationState.filterUser !== "") {
+    return applicationState.pros.filter(pro => {
+      return pro.user === applicationState.filterUser
+    })
+  } else {
+    return applicationState.pros.map(pro => ({...pro }))
+  }
 }
 
 export const getCons = () => {
   return applicationState.cons.map(con => ({...con }))
+}
+
+export const setProsFilteredByUser = (user) => {
+  applicationState.filterUser = user
+  proElement.dispatchEvent(new CustomEvent("prosChanged"))
 }
 
 export const setPro = (pro) => {
@@ -39,7 +51,7 @@ export const setPro = (pro) => {
       headers: {
           "Content-Type": "application/json"
       },
-      body: JSON.stringify({statement: pro})
+      body: JSON.stringify( pro)
   }
   return fetch(`${apiURL}/pros`, fetchOptions).then(() => {
     proElement.dispatchEvent(new CustomEvent("prosChanged"))
