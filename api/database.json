@@ -1,0 +1,30 @@
+{
+  "pros": [
+    {
+      "id": 1,
+      "statement": "Playing Outside provides exersice."
+    },
+    {
+      "statement": "Pools",
+      "id": 2
+    },
+    {
+      "statement": "Trees",
+      "id": 3
+    },
+    {
+      "statement": "Cars",
+      "id": 4
+    }
+  ],
+  "cons": [
+    {
+      "id": 1,
+      "statement": "The weather is often not good."
+    },
+    {
+      "statement": "I hate rain",
+      "id": 5
+    }
+  ]
+}
