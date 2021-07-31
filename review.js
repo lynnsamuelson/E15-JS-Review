@@ -6,12 +6,13 @@ const assignPersonToLocation = (location, person) => {
   return false
 }
 
-const location = {id:1, name: "Central Park", person: null}
-const person = {id: 1, name: "Brooke Cartwright", enabled: false}
+const locationB = {id:1, name: "Central Park", person: null}
+const locationT = {id:1, name: "Central Park", person: null}
+const Tatiana = {id: 1, name: "Tatiana", enabled: true}
+const Brittany = {id: 2, name: "Brittany", enabled: false}
 
-const personAssigned = assignPersonToLocation(location, person)
+// const personAssignedTatiana = assignPersonToLocation(locationT, Tatiana)
+const personAssignedBrittany = assignPersonToLocation(locationB, Brittany)
 
-console.log("assignPersonToLocation", assignPersonToLocation)
-console.log("personAssigned", personAssigned)
-console.log("location", location)
-console.log("person property", location.person)
+// console.log("personAssignedTatiana", personAssignedTatiana)
+console.log("personAssignedBrittany", personAssignedBrittany)

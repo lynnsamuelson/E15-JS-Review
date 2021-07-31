@@ -1,48 +1,50 @@
 {
   "pros": [
     {
-      "user": "Blaise",
-      "id": 1,
-      "statement": "Playing Outside provides exersice."
+      "user": "Sydney",
+      "statement": "Companionship",
+      "id": 1
     },
     {
       "user": "Blaise",
-      "statement": "Pools",
+      "statement": "Protection",
       "id": 2
     },
     {
-      "user": "Sydney",
-      "statement": "Trees",
+      "user": "Blaise",
+      "statement": "Emotion Support",
       "id": 3
     },
     {
-      "user": "Sydney",
-      "statement": "Cars",
+      "user": "Lynn",
+      "statement": "Pet Clout",
       "id": 4
     },
     {
       "user": "Sydney",
-      "statement": "running",
+      "statement": "Entertaining",
       "id": 5
-    },
-    {
-      "user": "Lynn",
-      "statement": "Dog",
-      "id": 6
-    },
-    {
-      "user": "Lynn",
-      "statement": "Dog2",
-      "id": 7
     }
   ],
   "cons": [
     {
-      "id": 1,
-      "statement": "The weather is often not good."
+      "statement": "Throw-up",
+      "id": 1
     },
     {
-      "statement": "I hate rain",
+      "statement": "Potty Training",
+      "id": 2
+    },
+    {
+      "statement": "$$$",
+      "id": 3
+    },
+    {
+      "statement": "Need to get home",
+      "id": 4
+    },
+    {
+      "statement": "Too much hair",
       "id": 5
     }
   ]
